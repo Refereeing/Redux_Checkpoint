@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background: rgb(69, 48, 230);
+  background: linear-gradient(0deg, rgb(65, 47, 201) 3%, #61ccd1 30%);
+}
+
+.title {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+.tasksss {
+color: black;
+margin-bottom: 10px;
+
+
+}
+
+
+.list-task {
+  margin-top: 20px;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #111104;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: smaller;
+  text-align: left;
+}
+
+.filter-btn {
+  margin-top: 10px;
+
+}
+.done-notdone {
+  width: 600px;
+  height: 40px;
+  font-size:x-large;  
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: solid 1px rgb(14, 1, 199);
+  border-radius: 10px;
+
+}
+.done-notdone:hover {
+background-color: #8ce0d2;
+transform: translate3d(0px, -7px, 0);
+transition: all ease-in-out 0.4s;
+}
